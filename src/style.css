@@ -1,0 +1,123 @@
+/* Fonts */
+@font-face {
+    font-family: Fontawesome-webfont; 
+    src: url(fonts/Fontawesome-webfont.ttf); 
+  }
+  @font-face {
+    font-family: FontAwesome; 
+    src: url(fonts/FontAwesome.otf); 
+  }
+  @font-face {
+    font-family: RUBDC; 
+    src: url(fonts/RUBDC.otf); 
+  }
+  @font-face {
+    font-family: RUBSN; 
+    src: url(fonts/RUBSN.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-Bold; 
+    src: url(fonts/SFUIText-Bold.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-BoldG1; 
+    src: url(fonts/SFUIText-BoldG1.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-BoldG2; 
+    src: url(fonts/SFUIText-BoldG2.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-BoldG3; 
+    src: url(fonts/SFUIText-BoldG3.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-BoldItalicG3; 
+    src: url(fonts/SFUIText-BoldItalicG3.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-Heavy; 
+    src: url(fonts/SFUIText-Heavy.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-HeavyItalic; 
+    src: url(fonts/SFUIText-HeavyItalic.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-ItalicG2; 
+    src: url(fonts/SFUIText-ItalicG2.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-Light; 
+    src: url(fonts/SFUIText-Light.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-LightItalic; 
+    src: url(fonts/SFUIText-LightItalic.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-Medium; 
+    src: url(fonts/SFUIText-Medium.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-MediumItalic; 
+    src: url(fonts/SFUIText-MediumItalic.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-Regular; 
+    src: url(fonts/SFUIText-Regular.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-RegularG1; 
+    src: url(fonts/SFUIText-RegularG1.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-RegularG2; 
+    src: url(fonts/SFUIText-RegularG2.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-RegularG3; 
+    src: url(fonts/SFUIText-RegularG3.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-Semibold; 
+    src: url(fonts/SFUIText-Semibold.otf); 
+  }
+  @font-face {
+    font-family: SFUIText-SemiboldItalic; 
+    src: url(fonts/SFUIText-SemiboldItalic.otf); 
+  }
+  
+  /* Style */
+  
+  #root{
+    min-height: 100vh;
+    background-color: #fafbfb;
+    z-index: 2;
+  }
+  
+  .app{
+    width: 1200px;
+    background-color: #fff;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #fafbfb;
+  }
+  
+  .bground{
+    background-color: rgb( 120, 144, 156 );
+  }
+  
+  .bground:hover{
+    background-color: #03a9f4;
+  }
+  
+  .underlinedDashed{
+    text-decoration: underline dashed;
+  }
